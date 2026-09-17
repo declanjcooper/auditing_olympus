@@ -22,9 +22,9 @@ While working groups spend years debating how to secure new features, attackers 
 
 ## The Cost of Waiting
 
-This slow process creates a major problem for the industry. When corporate security teams hear about these hardware attacks, their usual response is to completely block the new browser features. 
+This slow process creates a major problem for the industry. When corporate security teams learn of these hardware attacks, a usual response is to completely block the new browser features. 
 
-This approach hurts everyone. Running applications locally on your own machine is the foundation of digital privacy. It allows you to process your data without sending it to a centralized corporate cloud. If companies block these features just because standards bodies cannot patch them fast enough, we lose the ability to build software that respects user privacy.
+This approach hurts everyone. Running applications locally on your own machine is the foundation of digital privacy. It allows you to process your data without sending it to a centralized corporate cloud. Additionally, it removes huge compute overhead and dependencies on costly data centers by making implementing localized and reasonable utilities. If companies block these features just because standards bodies cannot patch them fast enough, we lose the ability to build software that respects user privacy.
 
 ## Bypassing the Bottleneck: Executing the Protocol
 
