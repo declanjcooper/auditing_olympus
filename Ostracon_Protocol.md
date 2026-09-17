@@ -17,7 +17,7 @@ This vulnerability is not a simple bug. Browsers are evolving to meet the future
 While working groups spend years debating how to secure new features, attackers use those exact features to bypass the sandbox. Every time browsers get a major upgrade, we see a new wave of hardware-level attacks.
 
 *   **The CPU:** When researchers published the [Spectre](https://arxiv.org/abs/1801.01203) vulnerability in 2018, they showed how websites could trick the computer's main processor into leaking sensitive data directly from its temporary memory.
-*   *   **The RAM:** High-speed computations allowed malicious scripts to rapidly activate memory chips. This caused electrical charges to physically leak inside the computer, leading to remote attacks like [Rowhammer.js](https://arstechnica.com/information-technology/2015/07/rowhammer-hardware-exploit-can-now-be-executed-using-a-mundane-web-script/).
+*   *   **The RAM:** High-speed computations allowed malicious scripts to rapidly activate memory chips. This caused electrical charges to physically leak inside the computer, leading to remote attacks like Rowhammer.js (link unavailable at time of publishing).
 *   **The Storage:** The 2026 FROST vulnerability turned simple hard drive delays into a tracking device while standards bodies were still debating the rules for browser storage.
 
 ## The Cost of Waiting
