@@ -26,11 +26,13 @@ This slow process creates a major problem for the industry. When corporate secur
 
 This approach hurts everyone. Running applications locally on your own machine is the foundation of digital privacy. It allows you to process your data without sending it to a centralized corporate cloud. Additionally, it removes huge compute overhead and dependencies on costly data centers by making localized and reasonable utilities available to end users. If companies block these features just because standards bodies cannot patch them fast enough, we lose the ability to build software that respects user privacy.
 
-## Bypassing the Bottleneck: Executing the Protocol
+## From Tactics to Community Defense
 
 Long-term stability requires browsers to be smarter. For example, a browser should automatically disable its precise stopwatches whenever a website starts saving huge amounts of data. However, we cannot afford to wait for standards bodies to clear their procedural bottlenecks. We must shift from being passive victims of a broken architecture to active enforcers of network hygiene.
 
 When tech companies host the servers that execute these tracking attacks, they violate standard [Acceptable Use Policies (AUP)](https://aws.amazon.com/aup/). The Ostracon Protocol weaponizes these legal contracts against the attackers. It provides a direct way to fight back by presenting cloud providers like Amazon or Google with undeniable technical evidence of abuse.
+
+### Building the Ledger
 
 By submitting these structured violation notices, developers and security researchers force cloud hosting providers to block the offending servers entirely. More importantly, executing this protocol establishes a foundation for a verifiable, community-driven record of bad actors. This action disrupts the tracking networks, bypasses the slow standardization process, and restores the integrity of the browser sandbox.
 
