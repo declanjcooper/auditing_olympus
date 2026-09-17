@@ -2,7 +2,7 @@
 
 In fifth-century BCE Athens, the ostracon served as a civic defense mechanism. Citizens inscribed the name of a political threat onto a broken shard of pottery to trigger ostracism. It was a standardized, procedural method to remove systemic risks and enforce community survival when official institutions failed to protect the public.
 
-The modern web requires a similar defense mechanism. Our current browser security models operate like glass sandboxes. They prevent a malicious website from directly touching your personal files. However, those websites can still look through the glass to observe what you are doing.
+The modern web requires a similar defense mechanism. Our current browser security models operate like glass sandboxes. They prevent a malicious website from directly accessing your personal files. However, those websites can still look through the "glass" to observe what you are doing.
 
 This transparency is the core of [FROST (Fingerprinting Remotely using OPFS-based SSD Timing)](https://hannesweissteiner.com/pdfs/frost.pdf). FROST is a hardware vulnerability identified by Graz University of Technology security researchers in 2026. It demonstrates how a hidden script running in a background browser tab can physically hijack your local hardware to map your private computer activity without asking for permission.
 
