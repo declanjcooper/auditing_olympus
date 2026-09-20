@@ -1,7 +1,6 @@
 <div align="center">
   <img src="img.png" alt="Auditing Olympus Techno-Deity" width="350" style="border-radius: 50%; margin-bottom: 20px;">
-  
-  <h1>auditing_olympus</h1>
+
   <p><em>Deconstructing the hubris. Documenting the architecture.</em></p>
 </div>
 
