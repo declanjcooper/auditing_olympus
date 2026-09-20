@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="image.png" alt="Auditing Olympus Techno-Deity" width="350" style="border-radius: 50%; margin-bottom: 20px;">
+  <img src="img.png" alt="Auditing Olympus Techno-Deity" width="350" style="border-radius: 50%; margin-bottom: 20px;">
   
   <h1>Auditing Olympus</h1>
   <p><em>Deconstructing the hubris. Documenting the architecture.</em></p>
