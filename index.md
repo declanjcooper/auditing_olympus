@@ -8,9 +8,9 @@ The current trajectory of artificial intelligence rests on a fundamental archite
 When the models inevitably hallucinate, the industry responds with brute force tactics, and continues to raise ridiculous sums of money on empty promises. Proponents are betting our futures on a belief that adding enough parameters and building massive data centers will eventually force a probabilistic model to act deterministically. This ascertion has created the operational embodiment of compute cartels. It is not a solution to the problem - one (by the way) they manufactured and dropped onto the world to reconcile. Solving complex problems now requires renting massive, thermally wasteful graphics processing unit (GPU) clusters from hyperscalers. What do we get in return? More confusion, further anthropomorphic silliness, and an industry of extreme consequence controlled by a few rich men. 
 
 <p align="center">
-  <img src="Man.png" alt="The Tech Bro" />
+  <img src="Man.png" alt="Outsourcing Leadership" />
   <br>
-  <em>Tech bro</em>
+  <em>Leadership as a Service</em>
 </p>
 <hr>
 
