@@ -17,6 +17,11 @@ Simply put, the state of artificial intelligence is based on a lack of vision, a
 We are already witnessing the first structural fractures in the hyperscaler monopoly. In August 2026, Thomson Reuters demonstrated a viable exit strategy by building their own proprietary large language model, Thomson-1, for just $40 million. Instead of starting from scratch or perpetually renting access from major AI labs, they adapted an open-source base model, trained it strictly on their curated legal and tax data, and took total ownership of their intellectual property. The final training run cost under half a million dollars, yet the model matches or outperforms massive, generalized systems in deep, domain-specific tasks. They recognized that perpetually paying API tolls to hyperscalers means a company never builds internal equity.
 Taking ownership of the model weights is the critical first step in breaking the compute cartel. However, for highly regulated, zero-tolerance environments, owning the weights is not enough. To safely deploy artificial intelligence, we must own the deterministic boundaries. To break out of the probabilistic loop, we must demote the neural network through a strict separation of concerns.
 
+![purging godbots](PersonalJesus2.png)
+*> Purging the Godbots.*
+
+***
+
 ### The Asymmetric Solution
 
 Separating perception from logic fundamentally changes hardware requirements. A neural network should act exclusively as an untrusted semantic router. It interprets messy input and generates an intent. It then hands that intent across a rigid serialization boundary to a standard central processing unit (CPU). The CPU executes the actual logic against an unchangeable, pre-computed graph. In this topology, intelligence does not live in the neural weights. It lives in the strictness of the boundaries.
