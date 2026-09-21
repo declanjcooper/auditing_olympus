@@ -26,7 +26,6 @@ Taking ownership of the model weights is the critical first step in breaking the
   <br>
   <em>Purging the godbots</em>
 </p>
-<hr>
 
 ### The Asymmetric Solution
 
