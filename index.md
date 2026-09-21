@@ -10,7 +10,7 @@ When the models inevitably hallucinate, the industry responds with brute force t
 <p align="center">
   <img src="Man.png" alt="Outsourcing Leadership" />
   <br>
-  <em>Leadership as a Service</em>
+  <em>Corporate climate: Leadership as a Service</em>
 </p>
 
 Simply put, the state of artificial intelligence is based on a lack of vision,  clarity, and an exemption from accountability. Reality, according to these men, is up for debate. That alone should frighten us all.
