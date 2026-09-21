@@ -33,7 +33,7 @@ Taking ownership of the model weights is the first step in breaking the compute 
 
 Separating perception from logic fundamentally changes hardware requirements. A neural network should act exclusively as an untrusted semantic router. It interprets messy input and generates an intent. It then hands that intent across a rigid serialization boundary to a standard central processing unit (CPU). The CPU executes the actual logic against an unchangeable, pre-computed graph. In this topology, intelligence does not live in the neural weights. It lives in the strictness of the boundaries.
 
-This concept attempts to move the argument beyond a simple critique. We can, if we choose, bypass the GPU data center and run highly precise models on local edge hardware. To do this, we must define the mechanical constraints. 
+This concept attempts to move the argument beyond a simple critique. We can, if we choose, reject the singularity of the current paradigm, and run highly precise models on local edge hardware. To do this, we must define the mechanical constraints. 
 
 The following architectural specification (called Project Chestnut) details a framework for Boundary-Enforced Compute (BEC). It outlines how to build a zero-copy hardware pipeline. In this pipeline, the perception node is permitted to be wrong, but the transit edges are mathematically infallible.
 
