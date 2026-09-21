@@ -25,7 +25,7 @@ Taking ownership of the model weights is the critical first step in breaking the
 <p align="center">
   <img src="PersonalJesus2.png" alt="Purging the godbots" />
   <br>
-  <em>Fig 2: The forced anthropomorphism of hardware.</em>
+  <em>Purging the godbots</em>
 </p>
 <hr>
 
