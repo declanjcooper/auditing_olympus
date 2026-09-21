@@ -19,9 +19,7 @@ Taking ownership of the model weights is the critical first step in breaking the
 
 ![purging godbots](PersonalJesus2.png)
 * Purging the Godbots*
-
-***
-
+  
 ### The Asymmetric Solution
 
 Separating perception from logic fundamentally changes hardware requirements. A neural network should act exclusively as an untrusted semantic router. It interprets messy input and generates an intent. It then hands that intent across a rigid serialization boundary to a standard central processing unit (CPU). The CPU executes the actual logic against an unchangeable, pre-computed graph. In this topology, intelligence does not live in the neural weights. It lives in the strictness of the boundaries.
