@@ -33,7 +33,7 @@ Separating perception from logic fundamentally changes hardware requirements. A 
 
 This concept attempts to move the argument beyond a simple critique. We can, if we choose, bypass the GPU data center and run highly precise models on local edge hardware. To do this, we must define the mechanical constraints. 
 
-The following architectural specification (code-named Project Chestnut) details a framework for Boundary-Enforced Compute (BEC). It outlines how to build a zero-copy hardware pipeline. In this pipeline, the perception node is permitted to be wrong, but the transit edges are mathematically infallible.
+The following architectural specification (called Project Chestnut) details a framework for Boundary-Enforced Compute (BEC). It outlines how to build a zero-copy hardware pipeline. In this pipeline, the perception node is permitted to be wrong, but the transit edges are mathematically infallible.
 
 ***
 
