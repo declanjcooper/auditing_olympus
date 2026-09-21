@@ -23,11 +23,12 @@ We are already witnessing the first structural fractures in the hyperscaler mono
 Taking ownership of the model weights is the critical first step in breaking the compute cartel. However, for highly regulated, zero-tolerance environments, owning the weights is not enough. To safely deploy artificial intelligence, we must own the deterministic boundaries. To break out of the probabilistic loop, we must demote the neural network through a strict separation of concerns.
 
 <p align="center">
-  <img src="PersonalJesus2.png alt= />
+  <img src="Personal Jesus 2.png" alt="The Tech Bro" />
   <br>
-  <em>Fig 2: Purging the Godbots.</em>
+  <em>Fig 2: The forced anthropomorphism of hardware.</em>
 </p>
 <hr>
+
 
 ### The Asymmetric Solution
 
