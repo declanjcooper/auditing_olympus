@@ -13,7 +13,7 @@ When the models inevitably hallucinate, the industry responds with brute force t
   <em>Leadership as a Service</em>
 </p>
 
-Simply put, the state of artificial intelligence is based on a lack of clarity, vision, and an exemption from accountability. Realitty, according to these men, is up for debate. That alone should frighten us all.
+Simply put, the state of artificial intelligence is based on a lack of vision,  clarity, and an exemption from accountability. Realitty, according to these men, is up for debate. That alone should frighten us all.
 
 **However, reacting with a purely antagonistic critique creates its own blind spot.** Anger is not an architecture. Frustration with the current paradigm is justified, but simply criticizing leaves us dependent on the very systems we are scrutinizing. Blind spot proliferation is what got us here. Clearly, neural networks remain highly useful. They are unparalleled at parsing noisy and unstructured telemetry. This includes natural language, biological data, and continuous spatial maps. The neural network itself is not the failure. The failure is the topology of the system. We placed the neural network at the center of the architecture and granted it authority over execution. To break out of this loop, we must demote the neural network through a separation of concerns.
 
@@ -27,7 +27,6 @@ Taking ownership of the model weights is the critical first step in breaking the
   <em>Purging the godbots</em>
 </p>
 <hr>
-
 
 ### The Asymmetric Solution
 
