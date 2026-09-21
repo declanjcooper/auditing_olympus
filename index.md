@@ -1,3 +1,5 @@
+![auditing_olympus](MumOcean.jpg)
+
 # Dispatch: The Generative Mirage and the Law of the Edge
 
 ## Introduction
