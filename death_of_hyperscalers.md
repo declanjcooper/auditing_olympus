@@ -7,9 +7,7 @@
 
 The trajectory of artificial intelligence rests on a fundamental topological error. We trap neural networks inside autoregressive loops, forcing statistical perception engines to act as generative conversationalists. In doing so, the industry has constructed massive, thermally intensive heat engines that inject semantic scatter, hallucinations, and domain contamination into enterprise data streams. 
 
-The hyperscaler model maintains its monopoly by convincing the market that mitigating this entropic decay requires renting gigawatts of centralized compute and stacking billions of parameters. This approach is an economic and thermodynamic dead end. Solving complex enterprise and regulatory problems does not require an encyclopedic chatbot; it requires a system that is physically incapable of executing an invalid state.
-
-To break out of this loop as described in Dispatch 007, we must execute a complete topological shift. We must demote the neural network through a strict separation of concerns, treat it as an untrusted perception peripheral, and gate its output behind an immutable, deterministic hardware boundary: **Negentropic Filtering**.
+Solving complex enterprise and regulatory problems does not require an encyclopedic chatbot; it requires a system that is physically incapable of executing an invalid state. To break out of this loop as described in Dispatch 007, we must execute a complete topological shift. We must demote the neural network through a strict separation of concerns, treat it as an untrusted perception peripheral, and gate its output behind an immutable, deterministic hardware boundary: **Negentropic Filtering**.
 
 ## I. Architectural Paradigm: The Hot-Swappable Perception Lattice
 
@@ -19,16 +17,13 @@ Current systems conflate probabilistic perception with deterministic execution w
 * **Deterministic Logic (The Reference Core):** Standard central processing units (CPUs) evaluate explicit rules by traversing compressed spatial ontologies, primarily the Sparse Voxel Directed Acyclic Graph (SVDAG). 
 * **Semantic Edges (The Coincidence Discriminator):** The transit layer functions as an algebraic validation gate. Parser combinators enforce an unyielding parsing protocol at the memory boundary, ensuring the perception node is permitted to be wrong, but the transit edges are mathematically infallible.
 
-
 ## II. Hardware and Transit Topologies: Coherent Silicon over Serialization
 
-Earlier iterations of Boundary-Enforced Compute introduced serialization friction across traditional Peripheral Component Interconnect Express (PCIe) buses, requiring custom bitwise kernels to interleave coordinates into dense Morton codes. Emerging hardware standards completely dissolve this serialization bottleneck.
+Earlier iterations of BEC introduced serialization friction across traditional Peripheral Component Interconnect Express (PCIe) buses, requiring custom bitwise kernels to interleave coordinates into dense Morton codes. Emerging hardware standards completely dissolve this serialization bottleneck.
 
 * **Cache-Coherent Interconnects (CXL):** Compute Express Link (`CXL.mem` and `CXL.cache`) establishes an asymmetric cache-coherent memory model across the physical layer. The perception accelerator and the host CPU share a unified physical memory address space. The perception engine writes raw logits or sparse activations directly into shared memory.
 * **Zero-Copy Execution:** Because memory is shared natively, payload packing and operating system context switches are eliminated. The CPU reads the perception output via standard load and store instructions, achieving true zero-copy execution.
 * **PCIe FLIT Mode Transit:** As transit infrastructure transitions to PCIe 6.0 and 7.0, data transport shifts from variable-length packets to rigid Flow Control Units (FLITs) paired with low-latency Forward Error Correction (FEC). The transit fabric itself becomes a predictable, mathematically governed physical lattice.
-
----
 
 ## III. Boundary Enforcement and Validation: SMT Solvers and the Filter
 
@@ -37,8 +32,6 @@ The Template Referenced Analysis & Content Evaluation (TRACE) framework provides
 * **State Resolution over Disambiguation:** Ambiguity is treated as semantic superposition. The system executes a physical State Resolution by measuring incoming containers against the TRACE reference lattice, forcing the superposition to collapse into a definitive physical state or face immediate rejection.
 * **Satisfiability Modulo Theories (SMT) Solvers:** Moving beyond statistical property-based fuzzing, the architecture integrates SMT solvers. SMT solvers mathematically prove the impossibility of out-of-bounds or non-compliant states at compile time, providing exhaustive verification of the domain space.
 * **Semantic Error Provenance:** Boundary failures yield a zero-copy error state routed directly to a dead-letter queue, capturing the exact semantic context for auditability without disrupting the primary pipeline.
-
----
 
 ## IV. Deployment Architecture: The Rust-Init Appliance
 
