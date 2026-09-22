@@ -3,18 +3,15 @@
 ![auditing_olympus](MumOcean.jpg)
 
 
-
 # Dispatch 008: Death of the Hyperscaler: How Boundary-Enforced Compute Renders the Datacenter Obsolete
 
 ## Introduction
 
-The trajectory of artificial intelligence rests on a fundamental topological error. We trap neural networks inside autoregressive loops, forcing statistical perception engines to act as generative conversationalists. In doing so, the industry has constructed massive, thermally wasteful heat engines that inject semantic scatter, hallucinations, and domain contamination into enterprise data streams. 
+The trajectory of artificial intelligence rests on a fundamental topological error. We trap neural networks inside autoregressive loops, forcing statistical perception engines to act as generative conversationalists. In doing so, the industry has constructed massive, thermally intensive heat engines that inject semantic scatter, hallucinations, and domain contamination into enterprise data streams. 
 
 The hyperscaler model maintains its monopoly by convincing the market that mitigating this entropic decay requires renting gigawatts of centralized compute and stacking billions of parameters. This approach is an economic and thermodynamic dead end. Solving complex enterprise and regulatory problems does not require an encyclopedic chatbot; it requires a system that is physically incapable of executing an invalid state.
 
-Reactive critique is insufficient. Simply attacking hyperscalers leaves organizations dependent on the very systems they scrutinize. To break out of this loop, we must execute a complete topological shift. We must demote the neural network through a strict separation of concerns, treat it as an untrusted perception peripheral, and gate its output behind an immutable, deterministic hardware boundary: **Negentropic Filtering**.
-
----
+To break out of this loop as described in Dispatch 007, we must execute a complete topological shift. We must demote the neural network through a strict separation of concerns, treat it as an untrusted perception peripheral, and gate its output behind an immutable, deterministic hardware boundary: **Negentropic Filtering**.
 
 ## I. Architectural Paradigm: The Hot-Swappable Perception Lattice
 
@@ -24,7 +21,6 @@ Current systems conflate probabilistic perception with deterministic execution w
 * **Deterministic Logic (The Reference Core):** Standard central processing units (CPUs) evaluate explicit rules by traversing compressed spatial ontologies, primarily the Sparse Voxel Directed Acyclic Graph (SVDAG). 
 * **Semantic Edges (The Coincidence Discriminator):** The transit layer functions as an algebraic validation gate. Parser combinators enforce an unyielding parsing protocol at the memory boundary, ensuring the perception node is permitted to be wrong, but the transit edges are mathematically infallible.
 
----
 
 ## II. Hardware and Transit Topologies: Coherent Silicon over Serialization
 
