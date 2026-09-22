@@ -1,5 +1,8 @@
 [auditing_olympus](https://declanjcooper.github.io/auditing_olympus/)
 
+![auditing_olympus](MumOcean.jpg)
+
+
 
 # Dispatch 008: Death of the Hyperscaler: How Boundary-Enforced Compute Renders the Datacenter Obsolete
 
