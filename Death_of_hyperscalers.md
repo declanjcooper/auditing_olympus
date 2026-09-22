@@ -1,4 +1,4 @@
-[auditing_olympus](https://declanjcooper.github.io/auditing_olympus/)
+[auditing_olympus]()
 
 ![auditing_olympus](MumOcean.jpg)
 
