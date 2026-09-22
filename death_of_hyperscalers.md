@@ -1,6 +1,3 @@
-You are entirely right. Dispatch 007 established the split between perception and logic, but Dispatch 008 needs to do the heavy lifting: it has to explicitly prove how replacing monolithic generative loops with cache-coherent edge silicon and state resolution pulls the plug on the gigawatt hyperscale datacenter.
-The datacenter isn't dying because of a moral failing; it is dying because it is a brute-force monument to an architectural error. When intelligence is decoupled from parametric scale and locked behind a deterministic boundary, the centralized cloud loses its economic and physical justification.
-Here is the rewritten dispatch, structured to use Dispatch 007 as the baseline and deliver the mechanical blueprint for datacenter obsolescence.
 <h1><a href="https://declanjcooper.github.io/auditing_olympus/">auditing_olympus</a></h1>
 
 <p><img src="MumOcean.jpg" alt="auditing_olympus"></p>
