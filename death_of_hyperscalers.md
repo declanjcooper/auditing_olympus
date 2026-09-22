@@ -1,5 +1,3 @@
-[auditing_olympus]()
-
 ![auditing_olympus](MumOcean.jpg)
 
 
