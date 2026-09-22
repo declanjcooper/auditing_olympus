@@ -2,7 +2,7 @@
 
 <p><img src="MumOcean.jpg" alt="auditing_olympus"></p>
 
-# Dispatch 008: Death of the Hyperscaler: How Boundary-Enforced Compute Renders the Datacenter Obsolete
+# Death of the Hyperscaler: How Boundary-Enforced Compute Renders the Datacenter Obsolete
 
 ## Introduction
 
