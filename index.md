@@ -104,3 +104,7 @@ Subsequent development must investigate the following domains:
 *   **Kernel-Bypass Input/Output:** Researching the application of user-space networking and I/O frameworks. This allows the execution of direct memory transfers without invoking operating system context switches.
 *   **Static Graph Verification:** Evaluating the integration of Satisfiability Modulo Theories (SMT) solvers. SMT solvers could mathematically prove the impossibility of out-of-bounds states at compile time.
 *   **Hardware-Agnostic Deserialization Limits:** Establishing the performance degradation associated with enforcing strict endianness checks at the boundary. This will be compared against assuming a uniform hardware architecture.
+
+## Research Update: 
+
+The serialization bottleneck and hardware-agnostic deserialization limits identified above have been addressed. By transitioning to cache-coherent memory models, Project Chestnut has eliminated the need for Morton code translation entirely. For the updated architecture and a breakdown of how this breakthrough structurally disqualifies the generative token, read **[Dispatch 008: How the Mechanism of Action Obsoletes the Token](dispatch008.md)**.
