@@ -1,3 +1,5 @@
+![auditing_olympus](MumOcean.jpg)
+
 # Dispatch 008: How the Mechanism of Action Obsoletes the Token
 
 The industry treats the black box as an unprecedented philosophical mystery. In reality, a black box is merely an uncharacterized variable operating without mechanical boundaries. For decades, sciences reliant on critical safety have refused to grant execution authority to any intervention lacking a declared mechanism of action (MoA). Applying this discipline to computational architectures fundamentally shifts system design. When structural integrity demands exact traceability of how a system reaches a decision, the mechanism of action structurally disqualifies reliance on probabilistic tokens.
