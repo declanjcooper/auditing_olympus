@@ -7,7 +7,7 @@
 ## I. Architectural Scope & Core Philosophy
 
 ### 1.1 Purpose & Mission
-Project Chestnut provides an immutable, deterministic off-ramp from cloud-hosted, probabilistic Large Language Models (LLMs) for zero-tolerance enterprise operators (SIFMUs, clinical trial sponsors, medical physics facilities). It establishes a rigid, audit-grade verification framework that protects institutional pipelines from data corruption, template drift, and external API dependencies.
+Project Chestnut provides an immutable, deterministic off ramp from cloud-hosted, probabilistic Large Language Models (LLMs) for zero-tolerance enterprise operators (SIFMUs, clinical trials, diagnostic imaging). It establishes a rigid verification framework that protects institutional pipelines from data corruption, template drift, and external API dependencies.
 
 ### 1.2 Core Principles & The Fail-Closed Mandate
 * **Rejection of Graceful Degradation:** The system operates as a binary safety interlock. Ambiguous, malformed, or non-compliant inputs never trigger heuristic fallback logic or probabilistic guesses. Instead, they trigger a hard hardware/software interrupt and block instantly.
