@@ -71,7 +71,7 @@ Modeled after the DICOM standard, utilizing strict trademark governance (e.g., "
 
 ---
 
-## V. Adversarial Hardening (The Achilles Protocol Matrix)
+## V. Adversarial Hardening (The Achilles Protocol)
 
 * **Vector 1 (Ingestion Vulnerability):** Mitigated via zero-copy byte sandboxing, execution timeouts, and strict memory limits prior to DAG parsing.
 * **Vector 2 (Semantic Blind Spot):** Mitigated by splitting structure (TRA) from meaning (CE) across the partitioned XML tree and enforcing domain invariant rule bounds via compiled DSL modules, ensuring valid envelopes cannot smuggle malformed semantics or dirty track changes.
