@@ -122,11 +122,31 @@ categories: [architecture, UI]
                 <h3>Conforming Trunk</h3>
                 <div class="node node-safe">
                     <span class="badge badge-safe">Mapped: Purpose</span><br>
-                    <strong>Standard Text:</strong> This Business Practice (BP) provides guidance baking an apple pie...
+                    <strong>Standard Text:</strong> This Business Practice (BP) provides guidance baking an apple pie[span_0](start_span)[span_0](end_span)
+                </div>
+                <div class="node node-safe">
+                    <span class="badge badge-safe">Mapped: Scope</span><br>
+                    <strong>Standard Text:</strong> This BP applies to pie baking[span_1](start_span)[span_1](end_span)
+                </div>
+                <div class="node node-safe">
+                    <span class="badge badge-safe">Mapped: Responsibilities</span><br>
+                    <strong>Cook:</strong> Follow this BP when baking apple pies. Gathers ingredients and equipment as described in procedure.[span_2](start_span)[span_2](end_span)
+                </div>
+                <div class="node node-safe">
+                    <span class="badge badge-safe">Mapped: References</span><br>
+                    <strong>Standard Text:</strong> JOC – Joy of Cooking<br>TFC- The French Chef – Julia Child[span_3](start_span)[span_3](end_span)
+                </div>
+                <div class="node node-safe">
+                    <span class="badge badge-safe">Mapped: Definitions</span><br>
+                    <strong>Pie:</strong> A baked dish with a pastry crust and a filling, which can be sweet or savory.[span_4](start_span)[span_4](end_span)
                 </div>
                 <div class="node node-safe">
                     <span class="badge badge-safe">Mapped: Procedure</span><br>
-                    <strong>Cook:</strong> Mix dough until just coming together. Add tsp amounts of cold water...
+                    <strong>Cook:</strong> Mix dough until just coming together. Add tsp amounts of cold water until crumbly dough is achieved. Wrap in plastic wrap and rest refrigerated for a minimum of 1 hour.[span_5](start_span)[span_5](end_span)
+                </div>
+                <div class="node node-safe">
+                    <span class="badge badge-safe">Mapped: Study Inactivation</span><br>
+                    <strong>Standard Text:</strong> Study Inactivation is the process where Medidata inactivates the study in Rave and it is no longer visible to any users. The study will no longer be accessible so no users will maintain access to the inactivated study.[span_6](start_span)[span_6](end_span)
                 </div>
             `;
 
@@ -135,11 +155,11 @@ categories: [architecture, UI]
                 <h3>Quarantine Zone</h3>
                 <div class="node node-danger">
                     <span class="badge badge-danger">Fatal: Orphaned Text</span><br>
-                    "Blah blah about plates and silver ware. Ice cream or whip topping options"
+                    "Blah blah about plates and silver ware<br>Ice cream or whip topping options[span_7](start_span)"[span_7](end_span)
                 </div>
                 <div class="node node-danger">
                     <span class="badge badge-danger">Fatal: Unmapped Node</span><br>
-                    <strong>Unrecognized Header:</strong> Appendix 1 – Cooks Notes
+                    <strong>Appendix 1 – Cooks Notes:</strong> Adde bullet point cooking notes here: These could be silly asides only Sarah would get[span_8](start_span)[span_8](end_span)
                 </div>
             `;
 
