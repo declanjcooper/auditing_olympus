@@ -59,9 +59,17 @@ categories: [architecture, UI]
     <div class="trace-workspace">
         <div class="trace-col col-contract" id="col-contract">
             <h3>Template Standard</h3>
-            <div class="node node-ghost"><strong>3.0 Responsibilities</strong><br>Table: Role | Responsibility</div>
-            <div class="node node-ghost"><strong>5.0 Definitions</strong><br>Table: Term | Definition</div>
-            <div class="node node-ghost"><strong>6.0 Procedure</strong><br>Table: Step | Role | Procedure</div>
+            <div class="node node-ghost"><strong>Purpose</strong><br>Standard Text</div>
+            <div class="node node-ghost"><strong>Scope</strong><br>Standard Text</div>
+            <div class="node node-ghost"><strong>Responsibilities</strong><br>Table: Role | Responsibility</div>
+            <div class="node node-ghost"><strong>References</strong><br>Standard Text</div>
+            <div class="node node-ghost"><strong>Definitions</strong><br>Table: Term | Definition</div>
+            <div class="node node-ghost"><strong>Procedure</strong><br>Table: Step | Role | Procedure</div>
+            <div class="node node-ghost"><strong>Study Inactivation</strong><br>Standard Text</div>
+            <div class="node node-ghost"><strong>Documentation Requirements</strong><br>Standard Text</div>
+            <div class="node node-ghost"><strong>Appendices</strong><br>Standard Text</div>
+            <div class="node node-ghost"><strong>Document History</strong><br>Table: Ver. | Revision Type | Effective Date | Author | Owning Department</div>
+            <div class="node node-ghost"><strong>Update Summary</strong><br>Table</div>
         </div>
         
         <div class="trace-col col-trunk" id="col-trunk">
@@ -113,11 +121,11 @@ categories: [architecture, UI]
             colTrunk.innerHTML = `
                 <h3>Conforming Trunk</h3>
                 <div class="node node-safe">
-                    <span class="badge badge-safe">Mapped: 3.0</span><br>
-                    <strong>Cook:</strong> Follow this BP when baking apple pies...
+                    <span class="badge badge-safe">Mapped: Purpose</span><br>
+                    <strong>Standard Text:</strong> This Business Practice (BP) provides guidance baking an apple pie...
                 </div>
                 <div class="node node-safe">
-                    <span class="badge badge-safe">Mapped: 6.1.1</span><br>
+                    <span class="badge badge-safe">Mapped: Procedure</span><br>
                     <strong>Cook:</strong> Mix dough until just coming together. Add tsp amounts of cold water...
                 </div>
             `;
@@ -131,7 +139,7 @@ categories: [architecture, UI]
                 </div>
                 <div class="node node-danger">
                     <span class="badge badge-danger">Fatal: Unmapped Node</span><br>
-                    <strong>6.2.2 Study Inactivation:</strong> Study Inactivation is the process where Medidata inactivates the study...
+                    <strong>Unrecognized Header:</strong> Appendix 1 – Cooks Notes
                 </div>
             `;
 
