@@ -111,4 +111,4 @@ The serialization bottleneck and hardware-agnostic deserialization limits identi
 
 Further work on the architecture specification is **[here:](trace-master-spec-v1.2.md)**
 
-The TRACE Mock up is **[here:](trace_moxkup.md)**
+The TRACE Mock up is **[here:](trace_mockup.md)**
