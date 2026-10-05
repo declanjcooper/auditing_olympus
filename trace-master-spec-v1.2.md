@@ -1,6 +1,8 @@
-**Master Specification: TRACE, BEC, & Deterministic Enterprise Governance**
+**Master Specification: 
+TRACE, BEC, & Deterministic Enterprise Governance**
 
-**System Classification: Deterministic Trust Layer for High-Assurance Edge Environments Version: 1.3-MVP**
+**System Classification:
+Deterministic Trust Layer for High-Assurance Edge Environments Version: 1.3-MVP**
 
 ## I. Core Philosophy & The Fail-Closed Mandate
 
