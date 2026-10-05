@@ -7,7 +7,7 @@
 ## I. Core Philosophy & The Fail-Closed Mandate
 
 ### 1.1 Purpose & Mission
-Project Chestnut provides an immutable, deterministic off-ramp from cloud-hosted, probabilistic Large Language Models (LLMs) for zero-tolerance enterprise operators (life sciences, financial market infrastructure). It establishes a rigid verification framework that protects institutional pipelines from data corruption, template drift, and external API dependencies.
+Project Chestnut provides an immutable, deterministic off-ramp from cloud-hosted, probabilistic Large Language Models (LLMs) for zero-tolerance enterprise operators (e.g., life sciences, financial market infrastructure). It establishes a rigid verification framework that protects institutional pipelines from data corruption, template drift, and external API dependencies.
 
 ### 1.2 Core Principles
 * **The Latin Perfect Ontology (Unidirectional State):** The system enforces unidirectional state transitions (*actum est*—it has been done). There is no heuristic fallback, state reversion, or probabilistic delta comparison. Data either perfectly satisfies the spatial invariant of the Atlas-SVDAG to reach a `PERFECTED` state, or it breaks the mathematical seal, triggering a `FAILED_CLOSED` interlock. Epoch N+1 must prove compliance from zero.
