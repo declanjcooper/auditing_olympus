@@ -109,6 +109,6 @@ Subsequent development must investigate the following domains:
 
 The serialization bottleneck and hardware-agnostic deserialization limits identified above have been addressed. By transitioning to cache-coherent memory models, Project Chestnut has eliminated the need for Morton code translation entirely. For the updated architecture and a breakdown of how this breakthrough structurally disqualifies the generative token, read **[Dispatch 008: How the Mechanism of Action Obsoletes the Token](dispatch008.md)**.
 
-Further work on the architecture specification is **[here:](trace-master-spec-v1.2.md)**
+Further work on the architecture specification is **[here: Master Specification](trace-master-spec-v1.2.md)**
 
 The TRACE Mock up is **[here:](trace_mockup.md)**
