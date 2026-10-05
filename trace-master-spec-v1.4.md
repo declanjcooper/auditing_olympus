@@ -75,3 +75,9 @@ A CI/CD pipeline compiles the ruleset into a static `.wasm` binary, signed by th
 
 ### 5.2 Proprietary IP Encapsulation
 For validations requiring dynamic mathematical computation (e.g., verifying a column of formulation weights sums to exactly 100%), the CE-DSL routes targeted payloads to proprietary, standalone WASM plugins. These isolated black-boxes can safely execute internal logic, returning a deterministic TRUE/FALSE back to the CE-DSL, keeping enterprise IP secure and isolated.
+
+### 5.3 Downstream AI & The Semantic Linter
+
+TRACE explicitly leaves the natural language prose untouched during the structural validation phase. This is a deliberate defense against the probabilistic nature of LLMs and AGI. When generative models attempt to extract, ingest and enforce template structure and evaluate semantic meaning on raw, complex or corrupted OpenXML, they frequently hallucinate or generate irreversible template drift.
+
+​By enforcing a strict separation of concerns, TRACE acts as the deterministic pre-processor. Only after a document has achieved a mathematically PERFECTED structural state does the architecture allow the pristine Atlas-SVDAG payload to be handed off to a secondary probabilistic engine. This downstream layer (operating outside of the core transit gate as a "Semantic Linter") utilizes the verified bounding nodes to safely evaluate domain language collisions and semantic superpositions (e.g., resolving contextual ambiguity) without risking the integrity of the master style sheet. (*For detailed mechanics on spatial vector collapse and semantic evaluation, refer to the Semantic Linter Architecture Dispatch*).
