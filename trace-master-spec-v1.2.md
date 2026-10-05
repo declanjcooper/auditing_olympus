@@ -1,8 +1,5 @@
-**Master Specification: 
-TRACE, BEC, & Deterministic Enterprise Governance**
-
-**System Classification:
-Deterministic Trust Layer for High-Assurance Edge Environments Version: 1.3-MVP**
+**Master Specification: TRACE, BEC, & Deterministic Enterprise Governance**
+**System Classification: Deterministic Trust Layer for High-Assurance Edge Environments Version: 1.3-MVP**
 
 ## I. Core Philosophy & The Fail-Closed Mandate
 
@@ -38,8 +35,10 @@ The TRA component operates entirely blind to natural language prose. It parses t
 **3.1 OPC Zero-Copy Extraction**
 To prevent Zip-bomb and Denial of Service attacks, TRACE mounts the `.docx` Open Packaging Conventions (OPC) container in a zero-copy memory sandbox with strict size limits. It extracts only `word/_rels/document.xml.rels`, `word/styles.xml`, and `word/document.xml`.
 
-**3.2 The Track-Changes Invariant Gate**
-Before analyzing structural hierarchy, the parser scans `document.xml` for `w:ins` (insert) and `w:del` (delete) markup states. If the count exceeds zero, the document exists in a state of semantic superposition. The invariant breaks immediately, preventing the smuggling of unapproved edits.
+**3.2 The State-Resolution Invariant Gate**
+Before analyzing structural hierarchy, the parser enforces a strict resolution of all draft states. It scans `document.xml` for `w:ins` (insert), `w:del` (delete), `w:commentReference`, `w:commentRangeStart`, and `w:commentRangeEnd` markup states. Furthermore, if the `word/comments.xml` or `word/commentsExtended.xml` file exists within the OPC payload, the invariant breaks immediately.
+
+If any of these artifacts exist, the document is in a state of **semantic superposition**—the visual layout and the mathematical XML layout diverge, harboring an active negotiation. Because it is mathematically impossible to prove whether a hidden comment was reconciled or ignored, the spatial invariant fails. A document cannot be declared `PERFECTED` if it contains the metadata of its own drafting process. This hard-fail prevents catastrophic semantic bleed (e.g., hidden comments extracting into finalized data tables) and the smuggling of unapproved edits.
 
 **3.3 Atlas-SVDAG Compilation & Zero-Tolerance Style Compliance**
 TRACE discards OpenXML bloat by compiling the document into the Atlas-SVDAG (Spatial Vector Directed Acyclic Graph) within a contiguous Rust memory arena. Nodes reference each other via strict numerical indices (`NodeId`), avoiding self-referential pointers.
