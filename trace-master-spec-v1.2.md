@@ -1,3 +1,4 @@
+# auditing_olympus
 **Master Specification: TRACE, BEC, & Deterministic Enterprise Governance**
 **System Classification: Deterministic Trust Layer for High-Assurance Edge Environments Version: 1.3-MVP**
 
@@ -10,6 +11,9 @@ Project Chestnut provides an immutable, deterministic off-ramp from cloud-hosted
 * **The Latin Perfect Ontology (Unidirectional State):** The system enforces unidirectional state transitions (*actum est*—it has been done). There is no heuristic fallback, state reversion, or probabilistic delta comparison. Data either perfectly satisfies the spatial invariant of the Atlas-SVDAG to reach a `PERFECTED` state, or it breaks the mathematical seal, triggering a `FAILED_CLOSED` interlock. Epoch N+1 must prove compliance from zero.
 * **Separation of Concerns (SoC):** To prevent the confusion of structure and meaning, TRACE enforces a strict split between topological geometry (Template Referenced Analysis) and deterministic inspection (Content Examination). This prevents natural language ambiguity from injecting bias into the structural hypothesis.
 * **Bounded Scope:** The architecture explicitly rejects the pursuit of universal semantic omniscience. Narrowness, structural intolerance, and strict boundaries are leveraged as core safety features.
+
+**1.3 Native-Environment Remediation (Word as the UI)**
+TRACE does not require end-users to learn proprietary dashboards or interpret system logs. When a document fails the invariant check, the system acts as an automated editorial reviewer. It translates geometric topological failures into native OpenXML comments, injecting them at the exact coordinate of the failure, and returns the redlined document to the author. The human in the loop resolves the structural errors entirely within their native drafting environment, ensuring zero friction in the remediation pipeline.
 
 ---
 
@@ -24,7 +28,7 @@ Packaged as a compiled, sealed container (Docker or static WASM binary), TRACE d
 TRACE plugs directly into enterprise Electronic Document Management Systems (EDMS), such as Veeva Vault, acting as an automated Pre-Commit Webhook.
 * **The Trigger:** Veeva Vault halts a document check-in and posts the binary payload to the TRACE API.
 * **The Execution:** TRACE runs the deterministic traversal in memory (zero external dependencies).
-* **The Handoff:** TRACE flushes the payload from memory and returns a definitive JSON response. If `PERFECTED`, Vault commits the file and logs the cryptographic hash. If `FAILED_CLOSED`, TRACE returns an exact coordinate-based diagnostic log, and Vault blocks the commit.
+* **The Handoff:** TRACE flushes the ingestion payload from memory and returns a definitive response. If `PERFECTED`, Vault commits the file and logs the cryptographic hash. If `FAILED_CLOSED`, Vault blocks the commit. Instead of a standard error log, TRACE dynamically compiles a **Diagnostic Artifact**—a derivative `.docx` file where every topological breach is injected directly into the OpenXML as a native Word comment anchored to the exact failure coordinates, complete with Active Directory `@mentions` for the author. This shifts the system from a black-box gatekeeper to an automated peer reviewer, forcing the document back into a visual draft state for remediation.
 
 ---
 
@@ -43,9 +47,9 @@ If any of these artifacts exist, the document is in a state of **semantic superp
 **3.3 Atlas-SVDAG Compilation & Zero-Tolerance Style Compliance**
 TRACE discards OpenXML bloat by compiling the document into the Atlas-SVDAG (Spatial Vector Directed Acyclic Graph) within a contiguous Rust memory arena. Nodes reference each other via strict numerical indices (`NodeId`), avoiding self-referential pointers.
 
-This compilation phase enforces **Zero-Tolerance Style Compliance**. Visual mimicry (e.g., manually applying bolding and 16pt font to "Normal" text to simulate a header) is treated mathematically as data corruption. The Atlas-SVDAG does not infer intent; it enforces the master style sheet.
+This compilation phase performs a **Full-Pass Traversal** (Error Aggregation) to enforce **Zero-Tolerance Style Compliance**. Visual mimicry (e.g., manually applying bolding and 16pt font to "Normal" text to simulate a header) is treated mathematically as data corruption. The Atlas-SVDAG does not infer intent; it enforces the master style sheet.
 * If a user corrupts the template, the compilation fails and TRACE shifts the QA burden left.
-* The `FAILED_CLOSED` interlock yields exact coordinate diagnostics to the EDMS: `Rejected: Manual style override detected at NodeId: 4092. Expected 'Heading 2', found 'Normal + Bold + 14pt'. Reapply master template style.`
+* The system aggregates all invariant breaches across the document geometry so they can be injected into the Diagnostic Artifact during the Handoff phase, ensuring the author receives a comprehensive punch-list of structural failures in a single editorial review pass.
 
 ---
 
@@ -77,7 +81,7 @@ By binding the CE-DSL exclusively to the Atlas-SVDAG, TRACE explicitly rejects t
 ## V. Compliance, Deployment Lifecycle & Extensibility
 
 **5.1 Policy as Code (21 CFR Part 11 Lifecycle)**
-The CE-DSL rulesets are treated as regulated electronic records. Authored by compliance officers inside the EDMS, they are subjected to Part 11 compliant e-signatures. A CI/CD pipeline compiles the ruleset into a static `.wasm` binary, signed by the enterprise Certificate Authority. TRACE dynamically hot-swaps this signed component into its runtime, ensuring the core appliance seal is never broken.
+The CE-DSL rulesets are treated as regulated electronic records. Authored by compliance officers inside the EDMS, they are subjected to Part 11 compliant e-signatures. A CI/CD pipeline compiles the ruleset into a static `.wasm` binary, signed by the enterprise Certificate Authority. TRACE dynamically hot-swaps this signed component into its runtime, ensuring the core appliance seal is never broken. (Note for MVP Engineering: Version 1.0 will utilize Rust-compiled WASM modules; dynamic text-to-WASM compilation is slated for Version 2.0).
 
 **5.2 Proprietary IP Encapsulation**
 For validations requiring dynamic mathematical computation (e.g., verifying a column of formulation weights sums to exactly 100%), the CE-DSL routes targeted payloads to proprietary, standalone WASM plugins. These isolated black-boxes can safely execute internal logic, returning a deterministic `TRUE/FALSE` back to the CE-DSL, keeping enterprise IP secure and isolated.
