@@ -13,7 +13,7 @@ Project Chestnut provides an immutable, deterministic off-ramp from cloud-hosted
 *   **Bounded Scope:** The architecture explicitly rejects the pursuit of universal semantic omniscience. Narrowness, structural intolerance, and strict boundaries are leveraged as core safety features.
 
 ### 1.3 Native-Environment Remediation (Word as the UI)
-TRACE does not require end-users to learn proprietary dashboards or interpret system logs. When a document fails the invariant check, the system acts as an automated editorial reviewer. It translates geometric topological failures into native OpenXML comments, injecting them at the exact location of the failure, and returns the redlined document to the author. The human in the loop resolves the structural errors entirely within their native drafting environment, ensuring zero friction in the remediation pipeline.
+TRACE does not require end-users to learn proprietary dashboards or interpret system logs. When a document fails the invariant check, the system acts as an automated editorial reviewer. It translates geometric topological failures into native OpenXML comments, injecting them at the exact location of the failure, and returns the redlined document to the author. The human in the loop resolves the structural errors entirely within their native drafting environment, ensuring zero deviation in the remediation pipeline.
 
 ## II. Architecture & Enterprise Integration
 TRACE is engineered as a stateless, virtual System-on-Chip (SoC) micro-appliance. It operates as a strict mathematical filter, holding no local database and managing no version control.
