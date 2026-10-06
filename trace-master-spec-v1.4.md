@@ -41,7 +41,7 @@ If any of these artifacts exist, the document is in a state of semantic superpos
 ### 3.3 Atlas-SVDAG Compilation & Zero-Tolerance Style Compliance
 TRACE discards OpenXML bloat by compiling the document into the Atlas-SVDAG (Sparse Voxel Directed Acyclic Graph) within a contiguous Rust memory arena. Nodes reference each other via strict numerical indices (NodeId), avoiding self-referential pointers.
 
-This compilation phase performs a Full-Pass Traversal (Error Aggregation) to enforce Zero-Tolerance Style Compliance. Visual mimicry (e.g., manually applying bolding and 16pt font to "Normal" text to simulate a header) is treated mathematically as data corruption. The Atlas-SVDAG does not infer intent; it enforces the master style sheet. If a user corrupts the template, the compilation fails and TRACE shifts the QA burden back to human interaction.
+This compilation phase performs a Full-Pass Traversal (Error Aggregation) to enforce Zero-Tolerance Style Compliance. Visual mimicry (e.g., manually applying bolding and 16pt font to "Normal" text to simulate a header) is treated mathematically as data corruption. The Atlas-SVDAG does not infer intent; it enforces the master style sheet. If a user corrupts the template, the compilation fails and TRACE shifts the QA burden back to human intervention.
 *   The system aggregates all invariant breaches across the document geometry so they can be injected into the Diagnostic Artifact during the Handoff phase, ensuring the author receives a comprehensive punch-list of structural failures in a single editorial review pass.
 
 ## IV. The CE-DSL (Content Examination Domain-Specific Language)
