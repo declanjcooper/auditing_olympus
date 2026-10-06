@@ -16,7 +16,7 @@ Project Chestnut provides an immutable, deterministic off-ramp from cloud-hosted
 TRACE does not require end-users to learn proprietary dashboards or interpret system logs. When a document fails the invariant check, the system acts as an automated editorial reviewer. It translates geometric topological failures into native OpenXML comments, injecting them at the exact location of the failure, and returns the redlined document to the author. The human in the loop resolves the structural errors entirely within their native drafting environment, ensuring zero deviation in the remediation pipeline.
 
 ## II. Architecture & Enterprise Integration
-TRACE is engineered as a stateless, virtual System-on-Chip (SoC) micro-appliance. It operates as a strict mathematical filter, holding no local database and managing no version control.
+TRACE is engineered as a stateless, virtual System-on-Chip (S-o-C) micro-appliance. It operates as a strict mathematical filter, holding no local database and managing no version control.
 
 ### 2.1 The Stateless Edge Appliance Model
 Packaged as a compiled, sealed container (Docker or static WASM binary), TRACE deploys onto enterprise edge infrastructure entirely isolated from the open internet. It contains the OpenXML parser, the WASM execution engine, and the CE-DSL rulesets in one unified sandbox.
