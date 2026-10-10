@@ -1,4 +1,4 @@
-# Master Specification: TRACE, BEC, & Deterministic Enterprise Governance
+ # Master Specification: TRACE, BEC, & Deterministic Enterprise Governance
 **System Classification:** Deterministic Trust & Containment Layer for High-Assurance Edge Environments
 
 **Version:** 1.5-feature_lock (Native Interactive SME & Bounded Enterprise AI Infrastructure Integration)
@@ -58,11 +58,10 @@ The TRA component operates entirely blind to natural language prose. It parses t
 To prevent Zip-bomb and Denial-of-Service attacks, TRACE mounts the `.docx` Open Packaging Conventions (OPC) container in a zero-copy memory sandbox with strict size limits. It extracts only `word/_rels/document.xml.rels`, `word/styles.xml`, `word/document.xml`, `word/comments.xml`, and `word/commentsExtended.xml`.
 
 ### 3.2 The State-Resolution Invariant Gate
-Before analyzing structural hierarchy, the parser enforces a strict resolution of all draft states. It scans `document.xml` for `w:ins` (insert), `w:del` (delete), `w:commentReference`, `w:commentRangeStart`, and `w:commentRangeEnd` markup tags.
+Before analyzing structural hierarchy, the parser enforces a strict resolution of all draft states. It scans document.xml for w:ins (insert), w:del (delete), w:commentReference, w:commentRangeStart, and w:commentRangeEnd markup tags.
+If any un-reconciled revision artifacts or active comment references exist within the OPC payload, the document is in a state of semantic superposition, meaning the visual presentation and the underlying XML layout diverge, harboring an unresolved negotiation. Because it is mathematically impossible to prove whether an un-collapsed revision or hidden comment was accepted, rejected, or ignored, the spatial invariant fails. A document cannot be declared PERFECTED if it contains the metadata of its own creation process.
 
-If any un-reconciled revision artifacts or active comment references exist within the OPC payload, the document is in a state of semantic superposition—meaning the visual presentation and the underlying XML layout diverge, harboring an unresolved negotiation. Because it is mathematically impossible to prove whether an un-collapsed revision or hidden comment was accepted, rejected, or ignored, the spatial invariant fails. A document cannot be declared `PERFECTED` if it contains the metadata of its own creation process. 
-
-This hard-fail prevents catastrophic semantic bleed (e.g., hidden commentary extracting into finalized data tables) and the smuggling of unapproved edits. Additionally, it becomes the audit log and state analysis of every run including the bi-directional interactions with virtual SMEs, LLM judges. and approved authors. 
+This hard-fail prevents catastrophic semantic bleed (e.g., hidden commentary extracting into finalized data tables) and the smuggling of unapproved edits. To maintain the appliance's strict stateless mandate while satisfying enterprise compliance requirements, TRACE serializes the resolved markup history, bi-directional SME interactions, and LLM judge evaluations into an immutable audit telemetry package. Rather than storing this history locally, the appliance flushes the complete state analysis upstream alongside the diagnostic artifact or finalized cryptographic hash, handing off full evidentiary custody to the EDMS.
 
 ### 3.3 Atlas-SVDAG Compilation & Zero-Tolerance Style Compliance
 TRACE discards OpenXML bloat by compiling the document into the Atlas-SVDAG (Sparse Voxel Directed Acyclic Graph) within a contiguous Rust memory arena. Nodes reference each other via strict numerical indices (`NodeId`), avoiding self-referential pointers.
