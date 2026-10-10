@@ -1,4 +1,3 @@
-# auditing_olympus
 ## Master Specification: TRACE, BEC, & Deterministic Enterprise Governance <a id="core-philosophy"></a>
 **System Classification:** Deterministic Trust & Containment Layer for High-Assurance Edge Environments  
 **Version:** 1.5-feature_lock (Native Interactive SME & Bounded Enterprise AI Infrastructure Integration)  
