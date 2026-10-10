@@ -42,7 +42,7 @@ The S-o-C micro-appliance processes incoming document payloads through a two-pha
 TRACE plugs directly into enterprise Electronic Document Management Systems (EDMS), such as Veeva Vault, acting as an automated Pre-Commit Webhook:
 * **The Trigger:** Veeva Vault halts a document check-in and posts the binary payload to the TRACE API.
 * **The Execution:** TRACE runs the deterministic traversal in memory with zero external network dependencies.
-* **The Handoff:** TRACE flushes the ingestion payload from memory and returns a definitive response. If `PERFECTED`, Vault commits the file and logs the cryptographic hash. If `FAILED_CLOSED`, Vault blocks the commit and triggers a server-side in-place patch via API. Rather than emitting a separate downloaded review copy that risks fragmenting version control, TRACE injects a diagnostic comment layer directly into the active staging draft within the EDMS library. Every topological breach and unresolved SME query is written as a native comment anchored to the exact failure coordinates, complete with Active Directory `@mentions` for the author. This ensures authors remain entirely within the single source of truth, shifting the system from an opaque gatekeeper to an automated peer reviewer that populates feedback straight into the active workspace.
+* **The Handoff:** TRACE flushes the ingestion payload from memory and returns a definitive response. If `PERFECTED`, Vault commits the file and logs the cryptographic hash. If `FAILED_CLOSED`, Vault blocks the commit and triggers a server-side in-place patch via API. TRACE injects a diagnostic comment layer directly into the active staging draft within the EDMS library. Every topological breach and unresolved SME query is written as a native comment anchored to the exact failure coordinates (location), complete with Active Directory `@mentions` for the author. This ensures authors remain entirely within the single source of truth, shifting the system from an opaque gatekeeper to an automated peer reviewer that populates feedback straight into the active workspace.
 
 ---
 
@@ -59,7 +59,7 @@ By isolating only necessary parsing schemas, the TRA engine blocks structural bl
 ### 3.2 The State-Resolution Invariant Gate <a id="state-resolution"></a>
 Before analyzing structural hierarchy, the parser enforces a strict resolution of all draft states. It scans document content for `w:ins`/`text:insert` (insert), `w:del`/`text:delete` (delete), comment references, and comment boundary tags.
 
-If any un-reconciled revision artifacts or active comment references exist within the payload, the document is in a state of semantic superposition—meaning the visual presentation and the underlying layout diverge, harboring an unresolved negotiation. Because it is mathematically impossible to prove whether an un-collapsed revision or hidden comment was accepted, rejected, or ignored, the spatial invariant fails. A document cannot be declared `PERFECTED` if it contains the metadata of its own creation process.
+If any revision artifacts or active comment references exist within the payload, the document is in a state of semantic superposition - meaning the visual presentation and the underlying layout diverge, harboring an unresolved negotiation. Because it is mathematically impossible to prove whether an un-collapsed revision or hidden comment was accepted, rejected, or ignored, the spatial invariant fails. A document cannot be declared `PERFECTED` if it contains the metadata of its own creation process.
 
 This hard-fail prevents catastrophic semantic bleed (e.g., hidden commentary extracting into finalized data tables) and the smuggling of unapproved edits. To maintain the appliance's strict stateless mandate while satisfying enterprise compliance requirements, TRACE serializes the resolved markup history, bi-directional SME interactions, and LLM judge evaluations into an immutable audit telemetry package. Rather than storing this history locally, the appliance flushes the complete state analysis upstream alongside the diagnostic artifact or finalized cryptographic hash, handing off full evidentiary custody to the EDMS.
 
@@ -82,7 +82,7 @@ Once the TRA validates the envelope geometry, the contiguous Atlas-SVDAG arena i
 ### 4.1 The Latin Perfect Syntax Primitives
 To maintain absolute determinism and prevent Turing-complete hanging states, the CE-DSL contains no loops, variables, or mutable state. It utilizes a declarative Latin Perfect syntax (*actum est*) to assert that the topological shape of the document has resolved to the required compliance geometry:
 * **Boundary Assertions (`IS_BOUNDED_BY`):** Validates the spatial geometry of the DAG.
-  > `ASSERT SECTION "Scope" IS_BOUNDED_BY (Header2, Table)`
+  > `ASSERT SECTION "Scope" IS_BOUNDED_BY (Header2, Body Text)`
 * **Resolution Assertions (`IS_RESOLVED_TO`):** Verifies deterministic node states without fuzzy logic.
   > `ASSERT PAYLOAD IN_NODE "Date" IS_RESOLVED_TO "ISO-8601"`
 
